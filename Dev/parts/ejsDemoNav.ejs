@@ -1,0 +1,23 @@
+<nav>
+	<%
+	let classArr = [];
+
+	classArr[hover] = 'hover';
+
+	let nav = [
+		{
+			name: '劝学',
+			href: 'demo.html'
+		},
+		{
+			name: '出师表',
+			href: '出师表.html'
+		}
+	]
+	%>
+
+	<% for (let i = 0, l = nav.length; i < l; i++) { %>
+	<a class="<%= classArr[i] %>" href="<%= nav[i].href %>"><%= nav[i].name %></a>
+	<% } %>
+
+</nav>
