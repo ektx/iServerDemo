@@ -20,5 +20,5 @@ Thumbs.db
 # 添加你自己要忽略的文件
 *_HTML*
 
-*/version.json
-Dev/parts/version.json
+*version.json
+
